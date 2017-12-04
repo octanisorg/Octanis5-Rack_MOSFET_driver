@@ -1,4 +1,4 @@
-update=08/04/2017 12:31:54 PM
+update=2017 December 04, Monday 09:40:40
 version=1
 last_client=kicad
 [cvpcb]
@@ -28,7 +28,7 @@ ModuleOutlineThickness=0.15
 version=1
 [eeschema]
 version=1
-LibDir=C:/xesscorp/KiCad/libraries
+LibDir=../Octanis5-Rack_MOSFET_driver
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,3 +59,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=RPi_Hat
