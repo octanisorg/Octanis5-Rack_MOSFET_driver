@@ -46,22 +46,10 @@ Comment4 ""
 $EndDescr
 Text GLabel 1600 1200 0    60   Input ~ 0
 OUT1
-$Comp
-L Audio-Jack-3_2Switches J1
-U 1 1 5A22DA0E
-P 2100 1100
-F 0 "J1" H 1813 1077 50  0000 R CNN
-F 1 "Audio-Jack-3_2Switches" H 1813 1168 50  0000 R CNN
-F 2 "Octanis5-Rack_kicadlib:PJ307" H 2350 1200 50  0001 C CNN
-F 3 "" H 2350 1200 50  0001 C CNN
-F 4 "C16684" H 2100 1100 60  0001 C CNN "LCSC P/N"
-	1    2100 1100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1600 1200 1900 1200
 Wire Wire Line
-	2300 900  2300 800 
+	2300 800  2300 1000
 Wire Wire Line
 	2300 800  1600 800 
 $Comp
@@ -84,8 +72,6 @@ OUT2
 Wire Wire Line
 	1600 2050 1900 2050
 Wire Wire Line
-	2300 1750 2300 1650
-Wire Wire Line
 	2300 1650 1600 1650
 $Comp
 L GND #PWR057
@@ -107,7 +93,7 @@ OUT3
 Wire Wire Line
 	1600 2850 1900 2850
 Wire Wire Line
-	2300 2550 2300 2450
+	2300 2450 2300 2650
 Wire Wire Line
 	2300 2450 1600 2450
 $Comp
@@ -130,7 +116,7 @@ OUT4
 Wire Wire Line
 	1600 3700 1900 3700
 Wire Wire Line
-	2300 3400 2300 3300
+	2300 3300 2300 3500
 Wire Wire Line
 	2300 3300 1600 3300
 $Comp
@@ -153,7 +139,7 @@ OUT5
 Wire Wire Line
 	1600 4550 1900 4550
 Wire Wire Line
-	2300 4250 2300 4150
+	2300 4150 2300 4350
 Wire Wire Line
 	2300 4150 1600 4150
 $Comp
@@ -176,7 +162,7 @@ OUT6
 Wire Wire Line
 	1600 5400 1900 5400
 Wire Wire Line
-	2300 5100 2300 5000
+	2300 5000 2300 5200
 Wire Wire Line
 	2300 5000 1600 5000
 $Comp
@@ -199,7 +185,7 @@ OUT7
 Wire Wire Line
 	1600 6200 1900 6200
 Wire Wire Line
-	2300 5900 2300 5800
+	2300 5800 2300 6000
 Wire Wire Line
 	2300 5800 1600 5800
 $Comp
@@ -222,7 +208,7 @@ OUT8
 Wire Wire Line
 	1600 7050 1900 7050
 Wire Wire Line
-	2300 6750 2300 6650
+	2300 6650 2300 6850
 Wire Wire Line
 	2300 6650 1600 6650
 $Comp
@@ -240,90 +226,6 @@ Text GLabel 1600 6950 0    60   Input ~ 0
 SENSE8
 Wire Wire Line
 	1600 6950 1900 6950
-$Comp
-L Audio-Jack-3_2Switches J4
-U 1 1 5A240485
-P 2100 1950
-F 0 "J4" H 1813 1927 50  0000 R CNN
-F 1 "Audio-Jack-3_2Switches" H 1813 2018 50  0000 R CNN
-F 2 "Octanis5-Rack_kicadlib:PJ307" H 2350 2050 50  0001 C CNN
-F 3 "" H 2350 2050 50  0001 C CNN
-F 4 "C16684" H 2100 1950 60  0001 C CNN "LCSC P/N"
-	1    2100 1950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Audio-Jack-3_2Switches J5
-U 1 1 5A2404AD
-P 2100 2750
-F 0 "J5" H 1813 2727 50  0000 R CNN
-F 1 "Audio-Jack-3_2Switches" H 1813 2818 50  0000 R CNN
-F 2 "Octanis5-Rack_kicadlib:PJ307" H 2350 2850 50  0001 C CNN
-F 3 "" H 2350 2850 50  0001 C CNN
-F 4 "C16684" H 2100 2750 60  0001 C CNN "LCSC P/N"
-	1    2100 2750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Audio-Jack-3_2Switches J6
-U 1 1 5A2404CD
-P 2100 3600
-F 0 "J6" H 1813 3577 50  0000 R CNN
-F 1 "Audio-Jack-3_2Switches" H 1813 3668 50  0000 R CNN
-F 2 "Octanis5-Rack_kicadlib:PJ307" H 2350 3700 50  0001 C CNN
-F 3 "" H 2350 3700 50  0001 C CNN
-F 4 "C16684" H 2100 3600 60  0001 C CNN "LCSC P/N"
-	1    2100 3600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Audio-Jack-3_2Switches J7
-U 1 1 5A2404F8
-P 2100 4450
-F 0 "J7" H 1813 4427 50  0000 R CNN
-F 1 "Audio-Jack-3_2Switches" H 1813 4518 50  0000 R CNN
-F 2 "Octanis5-Rack_kicadlib:PJ307" H 2350 4550 50  0001 C CNN
-F 3 "" H 2350 4550 50  0001 C CNN
-F 4 "C16684" H 2100 4450 60  0001 C CNN "LCSC P/N"
-	1    2100 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Audio-Jack-3_2Switches J8
-U 1 1 5A240556
-P 2100 5300
-F 0 "J8" H 1813 5277 50  0000 R CNN
-F 1 "Audio-Jack-3_2Switches" H 1813 5368 50  0000 R CNN
-F 2 "Octanis5-Rack_kicadlib:PJ307" H 2350 5400 50  0001 C CNN
-F 3 "" H 2350 5400 50  0001 C CNN
-F 4 "C16684" H 2100 5300 60  0001 C CNN "LCSC P/N"
-	1    2100 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Audio-Jack-3_2Switches J9
-U 1 1 5A240583
-P 2100 6100
-F 0 "J9" H 1813 6077 50  0000 R CNN
-F 1 "Audio-Jack-3_2Switches" H 1813 6168 50  0000 R CNN
-F 2 "Octanis5-Rack_kicadlib:PJ307" H 2350 6200 50  0001 C CNN
-F 3 "" H 2350 6200 50  0001 C CNN
-F 4 "C16684" H 2100 6100 60  0001 C CNN "LCSC P/N"
-	1    2100 6100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Audio-Jack-3_2Switches J10
-U 1 1 5A2405AE
-P 2100 6950
-F 0 "J10" H 1813 6927 50  0000 R CNN
-F 1 "Audio-Jack-3_2Switches" H 1813 7018 50  0000 R CNN
-F 2 "Octanis5-Rack_kicadlib:PJ307" H 2350 7050 50  0001 C CNN
-F 3 "" H 2350 7050 50  0001 C CNN
-F 4 "C16684" H 2100 6950 60  0001 C CNN "LCSC P/N"
-	1    2100 6950
-	-1   0    0    1   
-$EndComp
 $Comp
 L GND #PWR064
 U 1 1 5A240A33
@@ -349,10 +251,10 @@ $EndComp
 Text Notes 5100 750  0    60   ~ 0
 VAA is 12 V in our case\n
 $Comp
-L Barrel_Jack J3
+L Barrel_Jack J1
 U 1 1 5A24337A
 P 5800 1050
-F 0 "J3" H 5615 1027 50  0000 R CNN
+F 0 "J1" H 5615 1027 50  0000 R CNN
 F 1 "Barrel_Jack" H 5615 1118 50  0000 R CNN
 F 2 "Octanis5-Rack_kicadlib:DC-005-20A" H 5850 1010 50  0001 C CNN
 F 3 "" H 5850 1010 50  0001 C CNN
@@ -404,4 +306,102 @@ Wire Wire Line
 	5350 1900 5500 1900
 Wire Wire Line
 	5900 1800 5900 1750
+$Comp
+L Audio-Jack-3 J3
+U 1 1 5A25B836
+P 2100 1100
+F 0 "J3" H 1813 1077 50  0000 R CNN
+F 1 "Audio-Jack-3" H 1813 1168 50  0000 R CNN
+F 2 "Octanis5-Rack_kicadlib:PJ-313D" H 2350 1200 50  0001 C CNN
+F 3 "" H 2350 1200 50  0001 C CNN
+F 4 "C95463" H 2100 1100 60  0001 C CNN "LCSC P/N"
+	1    2100 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Audio-Jack-3 J4
+U 1 1 5A25C2B1
+P 2100 1950
+F 0 "J4" H 1813 1927 50  0000 R CNN
+F 1 "Audio-Jack-3" H 1813 2018 50  0000 R CNN
+F 2 "Octanis5-Rack_kicadlib:PJ-313D" H 2350 2050 50  0001 C CNN
+F 3 "" H 2350 2050 50  0001 C CNN
+F 4 "C95463" H 2100 1950 60  0001 C CNN "LCSC P/N"
+	1    2100 1950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 1650 2300 1850
+$Comp
+L Audio-Jack-3 J5
+U 1 1 5A25C33B
+P 2100 2750
+F 0 "J5" H 1813 2727 50  0000 R CNN
+F 1 "Audio-Jack-3" H 1813 2818 50  0000 R CNN
+F 2 "Octanis5-Rack_kicadlib:PJ-313D" H 2350 2850 50  0001 C CNN
+F 3 "" H 2350 2850 50  0001 C CNN
+F 4 "C95463" H 2100 2750 60  0001 C CNN "LCSC P/N"
+	1    2100 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Audio-Jack-3 J6
+U 1 1 5A25C484
+P 2100 3600
+F 0 "J6" H 1813 3577 50  0000 R CNN
+F 1 "Audio-Jack-3" H 1813 3668 50  0000 R CNN
+F 2 "Octanis5-Rack_kicadlib:PJ-313D" H 2350 3700 50  0001 C CNN
+F 3 "" H 2350 3700 50  0001 C CNN
+F 4 "C95463" H 2100 3600 60  0001 C CNN "LCSC P/N"
+	1    2100 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Audio-Jack-3 J7
+U 1 1 5A25C65A
+P 2100 4450
+F 0 "J7" H 1813 4427 50  0000 R CNN
+F 1 "Audio-Jack-3" H 1813 4518 50  0000 R CNN
+F 2 "Octanis5-Rack_kicadlib:PJ-313D" H 2350 4550 50  0001 C CNN
+F 3 "" H 2350 4550 50  0001 C CNN
+F 4 "C95463" H 2100 4450 60  0001 C CNN "LCSC P/N"
+	1    2100 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Audio-Jack-3 J8
+U 1 1 5A25C736
+P 2100 5300
+F 0 "J8" H 1813 5277 50  0000 R CNN
+F 1 "Audio-Jack-3" H 1813 5368 50  0000 R CNN
+F 2 "Octanis5-Rack_kicadlib:PJ-313D" H 2350 5400 50  0001 C CNN
+F 3 "" H 2350 5400 50  0001 C CNN
+F 4 "C95463" H 2100 5300 60  0001 C CNN "LCSC P/N"
+	1    2100 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Audio-Jack-3 J9
+U 1 1 5A25C831
+P 2100 6100
+F 0 "J9" H 1813 6077 50  0000 R CNN
+F 1 "Audio-Jack-3" H 1813 6168 50  0000 R CNN
+F 2 "Octanis5-Rack_kicadlib:PJ-313D" H 2350 6200 50  0001 C CNN
+F 3 "" H 2350 6200 50  0001 C CNN
+F 4 "C95463" H 2100 6100 60  0001 C CNN "LCSC P/N"
+	1    2100 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Audio-Jack-3 J10
+U 1 1 5A25C8E8
+P 2100 6950
+F 0 "J10" H 1813 6927 50  0000 R CNN
+F 1 "Audio-Jack-3" H 1813 7018 50  0000 R CNN
+F 2 "Octanis5-Rack_kicadlib:PJ-313D" H 2350 7050 50  0001 C CNN
+F 3 "" H 2350 7050 50  0001 C CNN
+F 4 "C95463" H 2100 6950 60  0001 C CNN "LCSC P/N"
+	1    2100 6950
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
