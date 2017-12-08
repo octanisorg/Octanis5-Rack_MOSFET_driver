@@ -320,23 +320,23 @@ F 3 "" H 7500 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9350 4600 2    60   Input ~ 0
-IN8
+IN1
 Wire Wire Line
 	9350 4600 9200 4600
 Text GLabel 7150 4500 0    60   Input ~ 0
-IN6
-Text GLabel 7150 4400 0    60   Input ~ 0
-IN4
-Text GLabel 7150 4300 0    60   Input ~ 0
 IN3
-Text GLabel 7150 4200 0    60   Input ~ 0
-IN1
-Text GLabel 9350 4500 2    60   Input ~ 0
-IN7
-Text GLabel 9350 4400 2    60   Input ~ 0
+Text GLabel 7150 4400 0    60   Input ~ 0
 IN5
-Text GLabel 9350 4200 2    60   Input ~ 0
+Text GLabel 7150 4300 0    60   Input ~ 0
+IN6
+Text GLabel 7150 4200 0    60   Input ~ 0
+IN8
+Text GLabel 9350 4500 2    60   Input ~ 0
 IN2
+Text GLabel 9350 4400 2    60   Input ~ 0
+IN4
+Text GLabel 9350 4200 2    60   Input ~ 0
+IN7
 Wire Wire Line
 	9350 4200 9200 4200
 Wire Wire Line
